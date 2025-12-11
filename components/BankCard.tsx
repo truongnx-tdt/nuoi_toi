@@ -50,7 +50,7 @@ const BankCard: React.FC = () => {
           <div className="flex justify-between items-end">
             <div>
               <p className="text-brand-200 text-xs">CHỦ TÀI KHOẢN</p>
-              <p className="font-bold text-lg uppercase">NGUYEN VAN A</p> 
+              <p className="font-bold text-lg uppercase">NGUYEN TRUONG</p> 
             </div>
             <div className="text-right">
               <p className="text-brand-200 text-xs mb-1">EXP DATE</p>
