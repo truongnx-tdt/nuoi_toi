@@ -19,7 +19,7 @@ const FUNNY_RESPONSES = [
   "Thôi đừng văn vở nữa, chụp màn hình bill chuyển khoản đi rồi nói chuyện tiếp."
 ];
 
-export const askWhyDonate = async (userQuestion: string): Promise<string> => {
+export const askWhyDonate = async (_userQuestion: string): Promise<string> => {
   // Simulate AI "thinking" delay to make the chat feel natural
   await new Promise(resolve => setTimeout(resolve, 600 + Math.random() * 800));
 
